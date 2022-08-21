@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	height: 100%;
+    background-color: blueviolet;
+    text-align: center;
+	}
+
+* html #tudo {
+	height: 100%;
+	}
+
+#tudo {
+    min-height: 100%;
+    position: relative;
+    }
+
+#topo {
+    text-align: center;
+    font-size: 40px;
+    font-family: Silkscreen;
+    text-shadow: 2px 2px 8px black;
+    color: white;
+    }
+
+#gif{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    box-sizing:border-box;
+    align-items: center;
+    box-shadow: 5px 5px 20px black;
+    background-image: linear-gradient(30deg, rgb(9, 8, 95), rgb(59, 148, 221));    
+}
+
+#botao{
+    margin: 0 auto;
+    width: 50%;
+    /*display: flex;*/
+    text-align: center;
+    width: 200px;
+    height: auto;   
+    font-size: 25px;
+    cursor: pointer;
+    /*margin-left: 45%;*/
+    background-color: rgb(183, 241, 106);
+    border-radius: 30px;
+}
+
+.btn{
+    transition: all .5s;
+    border: 5px solid transparent;
+}
+
+.btn:hover{
+    border: 5px solid rgb(59, 148, 221);
+    border-radius: 30%;
+}
+    
+#rodape {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    font-size: 20px;
+    color: white;
+    }
+
+.link{
+    text-align: center;
+    color: white;
+}
+
+.link:hover{
+    color: rgb(59, 148, 221);
+}
+
+
+
